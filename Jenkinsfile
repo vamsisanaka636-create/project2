@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('GitHub Clone') {
             steps {
-                git branch: 'project2', url: 'https://github.com/vamsisanaka636-create/project2.git''
+                git branch: 'project2', url: 'https://github.com/vamsisanaka636-create/project2.git'
             }
         }
         stage('Build Maven') {
